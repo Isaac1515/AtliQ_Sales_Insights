@@ -47,3 +47,14 @@ Show total revenue in year 2020, January Month,
 
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
 and transactions.market_code="Mark001";`
+
+Atliq Overall sales- Dashboard view 
+![sales overall](https://github.com/Isaac1515/AtliQ_Sales_Insights/assets/73594051/d6356764-67ea-4f24-ad5a-8a4889571a85)
+
+Atliq sales by month- Dashboard view 
+![sales by month](https://github.com/Isaac1515/AtliQ_Sales_Insights/assets/73594051/0d6dd578-f060-4c03-9beb-3cf01cc10cd8)
+
+
+
+
+
